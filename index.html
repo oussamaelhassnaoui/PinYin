@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Free Pinyin to Chinese Converter - PinyinToChinese.com</title>
+    <meta name="description" content="Free online Pinyin to Chinese converter at PinyinToChinese.com. Convert Pinyin with tone numbers (ni3 hao3) to Chinese characters instantly. Best chinese pinyin tool for english to chinese characters translation.">
+    <meta name="keywords" content="pinyin to chinese, chinese pinyin, english to chinese characters, pinyin converter, chinese converter, mandarin converter, pinyin translator, chinese typing, pinyin for chinese, chinese typer, character to pinyin, chinese word to pinyin, hanzi to pinyin, asian character translator, chinese input online, online chinese input, chinese kanji translator, pinyintochinese.com">
+    <link rel="icon" type="image/png" href="PINYIN.PNG">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="brushstroke brush-1"></div>
+        <div class="brushstroke brush-2"></div>
+        <div class="logo">
+            <h1>拼音 PinYin</h1>
+            <!-- Theme toggle button -->
+            <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme">
+                <span class="theme-icon">🌙</span>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="input-section">
+                <h2>Best Free Pinyin to Chinese Converter - Type Chinese Online</h2>
+                <p>Convert Pinyin to Chinese characters instantly at PinyinToChinese.com. Type Pinyin with tone numbers (e.g., "ni3 hao3") or without tones. Our asian character translator supports 120,000+ words from CC-CEDICT.</p>
+                <div class="input-wrapper">
+                    <textarea id="pinyin-input" placeholder="Type or paste Pinyin here (e.g. wo3 hao3 shi4 jie4) - Chinese input online"></textarea>
+                </div>
+                <button id="convert-btn">Convert to Chinese</button>
+            </div>
+            
+            <div class="output-section">
+                <div class="output-header">
+                    <h2>Chinese Output - Chinese Kanji Translator Results</h2>
+                    <div class="output-actions">
+                        <button id="copy-btn" class="action-btn">Copy</button>
+                        <button id="google-btn" class="action-btn">Google</button>
+                        <button id="youtube-btn" class="action-btn">YouTube</button>
+                    </div>
+                </div>
+                <div id="chinese-output" class="output-display">
+                    <p class="placeholder">Chinese characters will appear here - Online Chinese input results</p>
+                </div>
+                <!-- Suggestions container -->
+                <div id="suggestions-container" class="suggestions-container hidden">
+                    <div class="panel-body">
+                        <div class="input-suggestions">
+                            <input type="text" class="form-control" id="pinyin-suggestion-input" placeholder="Enter pinyin here, e.g., hao - Pinyin translator" style="height: 32px; width:100%; font-size:18px;margin-bottom:8px;">
+                        </div>
+                        <div class="suggestions-display chinese-font" id="suggestions-display" style="border-top: 1px solid #CCCCCC; margin-top:4px; min-height:72px;overflow:auto;word-wrap:break-word;">
+                            <!-- Suggestions will be populated here -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="instructions">
+                <h3>How to Use This Pinyin Converter at PinyinToChinese.com - Chinese Typing Made Easy:</h3>
+                <ul>
+                    <li>Type Pinyin with tone numbers (e.g., "ni3 hao3") - Pinyin for Chinese pronunciation</li>
+                    <li>Or type Pinyin without tones (e.g., "ni hao") - Easy Chinese input online</li>
+                    <li>Supports thousands of Chinese words and phrases - Asian character translator</li>
+                    <li>Powered by the CC-CEDICT dictionary (120,000+ entries) - Best Chinese typer tool</li>
+                    <li>Real-time suggestions as you type - Character to Pinyin assistance</li>
+                </ul>
+            </div>
+            
+            <div class="seo-content">
+                <h2>Master Chinese Characters with Our Pinyin to Chinese Tool at PinyinToChinese.com</h2>
+                <p>Our free Pinyin to Chinese converter at PinyinToChinese.com helps you translate Pinyin into Chinese characters quickly and accurately. Whether you're a beginner learning Mandarin or an advanced student, this chinese pinyin tool supports all Chinese tones and syllables. Perfect for english to chinese characters translation.</p>
+                
+                <h3>Essential Tools and Resources for Chinese Learners at PinyinToChinese.com</h3>
+                <ul>
+                    <li><a href="/pinyin-chart">Full Pinyin Chart With Tone Marks - Learn Chinese Pinyin</a></li>
+                    <li><a href="/pinyin-pronunciation">Pinyin Pronunciation Guide - Master Chinese Pinyin</a></li>
+                    <li><a href="/pinyin-tone-converter">Pinyin Tone Marks Converter - Chinese Word to Pinyin</a></li>
+                    <li><a href="/blog/what-is-pinyin">What Is Pinyin and Why It's Important - Chinese Pinyin Guide</a></li>
+                </ul>
+                
+                <h3>How This Advanced Pinyin Converter at PinyinToChinese.com Works</h3>
+                <p>This professional tool uses the comprehensive CC-CEDICT dictionary, which contains over 120,000 Chinese words and phrases. Simply type your Pinyin text with or without tone numbers, and our converter will instantly display the corresponding Chinese characters. Our asian character translator is the best solution for chinese input online.</p>
+                
+                <h3>Benefits of Using Our Professional Pinyin Converter at PinyinToChinese.com</h3>
+                <ul>
+                    <li>Free to use online - no downloads required - Best Chinese typer tool</li>
+                    <li>Supports all Chinese tones (1, 2, 3, 4, and neutral) - Pinyin for Chinese mastery</li>
+                    <li>Works with both simplified and traditional characters - Chinese kanji translator</li>
+                    <li>Real-time conversion as you type - Online chinese input made easy</li>
+                    <li>Mobile-friendly design for learning on any device - Type chinese online anywhere</li>
+                </ul>
+            </div>
+        </div>
+    </main>
+
+    <!-- Pinyin conversion library -->
+    <script src="https://cdn.jsdelivr.net/npm/pinyin-pro@3.19.6/dist/index.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

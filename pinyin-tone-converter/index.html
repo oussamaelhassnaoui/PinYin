@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pinyin Tone Converter - Add Tone Marks to Pinyin | PinyinToChinese.com</title>
+    <meta name="description" content="Free online Pinyin tone converter. Add tone marks to Pinyin numbers instantly. Perfect tool for learning Mandarin Chinese pronunciation and character to pinyin conversion.">
+    <meta name="keywords" content="pinyin tone converter, pinyin tones, chinese pinyin, mandarin pronunciation, pinyin for chinese, character to pinyin, chinese word to pinyin, hanzi to pinyin, pinyintochinese.com">
+    <link rel="icon" type="image/png" href="../PINYIN.PNG">
+    <link rel="icon" type="image/x-icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <header>
+        <div class="brushstroke brush-1"></div>
+        <div class="brushstroke brush-2"></div>
+        <div class="logo">
+            <h1>拼音 PinYin</h1>
+            <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme">
+                <span class="theme-icon">🌙</span>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="content-section">
+                <h1>Pinyin Tone Converter - Add Tone Marks to Pinyin Numbers | PinyinToChinese.com</h1>
+                <p class="subtitle">Free online tool to convert Pinyin with tone numbers to Pinyin with tone marks. Essential for mastering chinese pinyin pronunciation and character to pinyin conversion.</p>
+                
+                <div class="breadcrumb">
+                    <a href="/">Home</a> > <a href="/learn-pinyin">Learn Pinyin</a> > Pinyin Tone Converter
+                </div>
+                
+                <div class="tool-content">
+                    <div class="input-section">
+                        <h2>Convert Pinyin Numbers to Tone Marks - Chinese Pinyin Tool</h2>
+                        <p>Our professional pinyin tone converter helps you transform pinyin with tone numbers (ni3 hao3) to pinyin with tone marks (nǐ hǎo). Perfect for learning chinese pinyin and improving pronunciation.</p>
+                        <div class="input-wrapper">
+                            <textarea id="pinyin-input" placeholder="Type or paste Pinyin with numbers here (e.g. ni3 hao3)"></textarea>
+                        </div>
+                        <button id="convert-btn">Add Tone Marks</button>
+                    </div>
+                    
+                    <div class="output-section">
+                        <div class="output-header">
+                            <h2>Pinyin with Tone Marks - Chinese Pinyin Results</h2>
+                            <div class="output-actions">
+                                <button id="copy-btn" class="action-btn">Copy</button>
+                            </div>
+                        </div>
+                        <div id="pinyin-output" class="output-display">
+                            <p class="placeholder">Pinyin with tone marks will appear here</p>
+                        </div>
+                    </div>
+                    
+                    <div class="instructions">
+                        <h3>How to Use This Pinyin Tone Converter - Chinese Pinyin Guide:</h3>
+                        <ul>
+                            <li>Type Pinyin with tone numbers (e.g., "ni3 hao3") - Pinyin for Chinese pronunciation</li>
+                            <li>Click "Add Tone Marks" to convert to tone marks (e.g., "nǐ hǎo")</li>
+                            <li>Copy the result for your study materials - Character to pinyin practice</li>
+                            <li>Use with our <a href="/pinyin-to-chinese/">Pinyin to Chinese converter</a> for complete learning</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="features">
+                        <h2>Why Use Our Pinyin Tone Converter?</h2>
+                        <div class="feature-grid">
+                            <div class="feature-item">
+                                <h3>Free Online Tool</h3>
+                                <p>No registration required. Simply type chinese pinyin and get instant results.</p>
+                            </div>
+                            <div class="feature-item">
+                                <h3>Accurate Conversion</h3>
+                                <p>Precise conversion from tone numbers to tone marks for all chinese pinyin combinations.</p>
+                            </div>
+                            <div class="feature-item">
+                                <h3>All Tones Supported</h3>
+                                <p>Supports all Chinese tones (1, 2, 3, 4, and neutral) for pinyin for chinese mastery.</p>
+                            </div>
+                            <div class="feature-item">
+                                <h3>Easy to Use</h3>
+                                <p>Simple interface designed for learners at all levels - Master character to pinyin conversion.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="tone-guide">
+                        <h2>Pinyin Tone Marks Guide - Chinese Pinyin Fundamentals</h2>
+                        <p>Understanding tone marks is essential for proper pinyin pronunciation and character to pinyin conversion:</p>
+                        <table class="pinyin-table">
+                            <thead>
+                                <tr>
+                                    <th>Tone Number</th>
+                                    <th>Tone Mark</th>
+                                    <th>Example</th>
+                                    <th>Pronunciation</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>1 (First Tone)</td>
+                                    <td>ˉ (macron)</td>
+                                    <td>mā</td>
+                                    <td>High and level</td>
+                                </tr>
+                                <tr>
+                                    <td>2 (Second Tone)</td>
+                                    <td>ˊ (acute accent)</td>
+                                    <td>má</td>
+                                    <td>Rising</td>
+                                </tr>
+                                <tr>
+                                    <td>3 (Third Tone)</td>
+                                    <td>ˇ (caron/hǎček)</td>
+                                    <td>mǎ</td>
+                                    <td>Falling-Rising</td>
+                                </tr>
+                                <tr>
+                                    <td>4 (Fourth Tone)</td>
+                                    <td>ˋ (grave accent)</td>
+                                    <td>mà</td>
+                                    <td>Falling</td>
+                                </tr>
+                                <tr>
+                                    <td>5 (Neutral Tone)</td>
+                                    <td>No mark</td>
+                                    <td>ma</td>
+                                    <td>Light and short</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    
+                    <div class="related-tools">
+                        <h2>Related Chinese Learning Tools</h2>
+                        <ul>
+                            <li><a href="/pinyin-chart/">Complete Pinyin Chart - Learn Chinese Pinyin</a></li>
+                            <li><a href="/pinyin-pronunciation/">Pinyin Pronunciation Guide - Master Chinese Pinyin</a></li>
+                            <li><a href="/pinyin-to-chinese/">Pinyin to Chinese Converter - Character to Pinyin</a></li>
+                            <li><a href="/blog/what-is-pinyin">What Is Pinyin Guide - Chinese Pinyin Fundamentals</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 PinyinToChinese.com - Best Pinyin Tone Converter Tool</p>
+        </div>
+    </footer>
+
+    <script>
+        // Theme toggle functionality
+        document.addEventListener('DOMContentLoaded', function() {
+            const themeToggle = document.getElementById('theme-toggle');
+            const themeIcon = document.querySelector('.theme-icon');
+            
+            // Check for saved theme preference
+            const savedTheme = localStorage.getItem('theme');
+            if (savedTheme === 'dark') {
+                document.body.classList.add('dark-theme');
+                themeIcon.textContent = '☀️';
+            } else {
+                themeIcon.textContent = '🌙';
+            }
+            
+            // Theme toggle functionality
+            themeToggle.addEventListener('click', function() {
+                document.body.classList.toggle('dark-theme');
+                
+                if (document.body.classList.contains('dark-theme')) {
+                    themeIcon.textContent = '☀️';
+                    localStorage.setItem('theme', 'dark');
+                } else {
+                    themeIcon.textContent = '🌙';
+                    localStorage.setItem('theme', 'light');
+                }
+            });
+            
+            // Pinyin tone conversion functionality
+            const pinyinInput = document.getElementById('pinyin-input');
+            const convertButton = document.getElementById('convert-btn');
+            const pinyinOutput = document.getElementById('pinyin-output');
+            const copyButton = document.getElementById('copy-btn');
+            
+            // Function to convert tone numbers to tone marks
+            function convertToneNumbersToMarks(text) {
+                // Define tone marks for vowels
+                const toneMarks = {
+                    'a': ['ā', 'á', 'ǎ', 'à'],
+                    'o': ['ō', 'ó', 'ǒ', 'ò'],
+                    'e': ['ē', 'é', 'ě', 'è'],
+                    'i': ['ī', 'í', 'ǐ', 'ì'],
+                    'u': ['ū', 'ú', 'ǔ', 'ù'],
+                    'ü': ['ǖ', 'ǘ', 'ǚ', 'ǜ']
+                };
+                
+                // Split text into words
+                return text.split(/\s+/).map(word => {
+                    // Check if word has a tone number (1-4)
+                    const match = word.match(/^([a-zA-ZüÜ]+)([1-4])$/);
+                    if (match) {
+                        const syllable = match[1].toLowerCase();
+                        const tone = parseInt(match[2]);
+                        
+                        // Find the vowel to apply the tone mark to
+                        let markedSyllable = syllable;
+                        const vowels = 'aeiouü';
+                        
+                        // Priority order for applying tone marks: a, o, e, i, u, ü
+                        if (syllable.includes('a')) {
+                            markedSyllable = syllable.replace('a', toneMarks['a'][tone-1]);
+                        } else if (syllable.includes('o')) {
+                            markedSyllable = syllable.replace('o', toneMarks['o'][tone-1]);
+                        } else if (syllable.includes('e')) {
+                            markedSyllable = syllable.replace('e', toneMarks['e'][tone-1]);
+                        } else if (syllable.includes('iu')) {
+                            markedSyllable = syllable.replace('u', toneMarks['u'][tone-1]);
+                        } else if (syllable.includes('i')) {
+                            markedSyllable = syllable.replace('i', toneMarks['i'][tone-1]);
+                        } else if (syllable.includes('u')) {
+                            markedSyllable = syllable.replace('u', toneMarks['u'][tone-1]);
+                        } else if (syllable.includes('ü')) {
+                            markedSyllable = syllable.replace('ü', toneMarks['ü'][tone-1]);
+                        }
+                        
+                        return markedSyllable;
+                    }
+                    return word;
+                }).join(' ');
+            }
+            
+            // Convert button event listener
+            convertButton.addEventListener('click', function() {
+                const inputText = pinyinInput.value.trim();
+                if (inputText) {
+                    const convertedText = convertToneNumbersToMarks(inputText);
+                    pinyinOutput.innerHTML = `<p>${convertedText}</p>`;
+                } else {
+                    pinyinOutput.innerHTML = '<p class="placeholder">Pinyin with tone marks will appear here</p>';
+                }
+            });
+            
+            // Copy button event listener
+            copyButton.addEventListener('click', function() {
+                const outputText = pinyinOutput.innerText;
+                if (outputText && !outputText.includes('Pinyin with tone marks will appear here')) {
+                    navigator.clipboard.writeText(outputText).then(() => {
+                        // Show feedback
+                        const originalText = copyButton.textContent;
+                        copyButton.textContent = 'Copied!';
+                        setTimeout(() => {
+                            copyButton.textContent = originalText;
+                        }, 2000);
+                    });
+                }
+            });
+        });
+    </script>
+</body>
+</html>

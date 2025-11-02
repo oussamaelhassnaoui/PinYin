@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page Not Found - PinyinToChinese.com</title>
+    <meta name="description" content="Page not found. Return to our Pinyin to Chinese converter tool.">
+    <meta name="keywords" content="pinyin to chinese, chinese pinyin, pinyin converter, page not found, 404 error">
+    <link rel="icon" type="image/png" href="PINYIN.PNG">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="brushstroke brush-1"></div>
+        <div class="brushstroke brush-2"></div>
+        <div class="logo">
+            <h1>拼音 PinYin</h1>
+            <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme">
+                <span class="theme-icon">🌙</span>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="content-section">
+                <h1>Page Not Found - PinyinToChinese.com</h1>
+                <p class="subtitle">Sorry, the page you're looking for doesn't exist.</p>
+                
+                <div class="error-content">
+                    <h2>404 Error</h2>
+                    <p>The page you requested could not be found. This might be because:</p>
+                    <ul>
+                        <li>The page has been moved or deleted</li>
+                        <li>The URL was typed incorrectly</li>
+                        <li>You followed an outdated link</li>
+                    </ul>
+                    
+                    <h3>Continue Learning Chinese with Our Tools:</h3>
+                    <ul>
+                        <li><a href="/">Pinyin to Chinese Converter</a> - Convert Pinyin to Chinese characters</li>
+                        <li><a href="/pinyin-chart/">Complete Pinyin Chart</a> - Learn all Pinyin sounds</li>
+                        <li><a href="/pinyin-pronunciation/">Pinyin Pronunciation Guide</a> - Master Chinese tones</li>
+                        <li><a href="/pinyin-tone-converter/">Pinyin Tone Converter</a> - Add tone marks to Pinyin</li>
+                        <li><a href="/blog/">Chinese Learning Blog</a> - Tips and resources for learners</li>
+                    </ul>
+                    
+                    <div class="navigation-links">
+                        <p><a href="/">← Back to Home</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script>
+        // Theme toggle functionality
+        document.addEventListener('DOMContentLoaded', function() {
+            const themeToggle = document.getElementById('theme-toggle');
+            const themeIcon = document.querySelector('.theme-icon');
+            
+            // Check for saved theme preference
+            const savedTheme = localStorage.getItem('theme');
+            if (savedTheme === 'dark') {
+                document.body.classList.add('dark-theme');
+                themeIcon.textContent = '☀️';
+            } else {
+                themeIcon.textContent = '🌙';
+            }
+            
+            // Theme toggle functionality
+            themeToggle.addEventListener('click', function() {
+                document.body.classList.toggle('dark-theme');
+                
+                if (document.body.classList.contains('dark-theme')) {
+                    themeIcon.textContent = '☀️';
+                    localStorage.setItem('theme', 'dark');
+                } else {
+                    themeIcon.textContent = '🌙';
+                    localStorage.setItem('theme', 'light');
+                }
+            });
+        });
+    </script>
+</body>
+</html>
