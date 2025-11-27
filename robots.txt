@@ -1,26 +1,4 @@
 User-agent: *
-Disallow:
+Allow: /
 
 Sitemap: https://pinyintochinese.com/sitemap.xml
-
-User-agent: Googlebot
-Disallow:
-
-User-agent: Bingbot
-Disallow:
-
-User-agent: Slurp
-Disallow:
-
-User-agent: DuckDuckBot
-Disallow:
-
-User-agent: Baiduspider
-Disallow:
-
-User-agent: Yandex
-Disallow:
-
-# Additional SEO optimization
-User-agent: *
-Crawl-delay: 10
